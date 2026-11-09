@@ -2,6 +2,8 @@
 
 A complete PHP + MariaDB web application for exploring fruit quality detection. Includes a responsive public website, camera/upload detector, accounts, private scan history, and an administrator workspace. The frontend uses native JavaScript modules and local SVG illustrations. **No frontend build or runtime npm dependencies are required.**
 
+Project for CSC120.
+
 ## Run locally
 
 Requirements: PHP 8.2+ with PDO MySQL, PDO SQLite (migration/isolated tests), fileinfo, mbstring, and cURL (for a connected model). The existing XAMPP installation provides these extensions.
