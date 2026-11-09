@@ -1,0 +1,9 @@
+/storage/*
+!/storage/.htaccess
+!/storage/.gitkeep
+/node_modules/
+/test-results/
+/.env
+/server/model-service.json
+/ml/__pycache__/
+/server/database.json

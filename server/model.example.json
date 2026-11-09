@@ -1,0 +1,4 @@
+{
+  "version": "your-model-version",
+  "fruit_classes": ["apple", "banana", "orange"]
+}

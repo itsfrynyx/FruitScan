@@ -1,0 +1,498 @@
+{
+  "version": "fruitscan-mobilenetv3-20261109-145819",
+  "fruit_classes": [
+    "apple",
+    "banana",
+    "grape",
+    "guava",
+    "jujube",
+    "orange",
+    "pomegranate",
+    "strawberry"
+  ],
+  "training_dataset": "bdd69gyhv8-1 original images",
+  "evaluation": {
+    "images": 644,
+    "joint_16_class_accuracy": 0.9860248447204969,
+    "joint_macro_f1": 0.9862536627040052,
+    "condition_accuracy": 0.9922360248447205,
+    "condition_balanced_accuracy": 0.992240772354195,
+    "condition_accuracy_wilson_95_image_level": [
+      0.9819549682826707,
+      0.9966793151594548
+    ],
+    "fruit_accuracy": 0.9922360248447205,
+    "condition_confusion_labels": [
+      "fresh",
+      "rotten"
+    ],
+    "condition_confusion_matrix": [
+      [
+        319,
+        2
+      ],
+      [
+        3,
+        320
+      ]
+    ],
+    "condition_report": {
+      "fresh": {
+        "precision": 0.9906832298136646,
+        "recall": 0.9937694704049844,
+        "f1-score": 0.9922239502332815,
+        "support": 321.0
+      },
+      "rotten": {
+        "precision": 0.9937888198757764,
+        "recall": 0.9907120743034056,
+        "f1-score": 0.9922480620155039,
+        "support": 323.0
+      },
+      "accuracy": 0.9922360248447205,
+      "macro avg": {
+        "precision": 0.9922360248447205,
+        "recall": 0.992240772354195,
+        "f1-score": 0.9922360061243927,
+        "support": 644.0
+      },
+      "weighted avg": {
+        "precision": 0.9922408471895374,
+        "recall": 0.9922360248447205,
+        "f1-score": 0.9922360435650484,
+        "support": 644.0
+      }
+    },
+    "joint_confusion_labels": [
+      "FreshApple",
+      "FreshBanana",
+      "FreshGrape",
+      "FreshGuava",
+      "FreshJujube",
+      "FreshOrange",
+      "FreshPomegranate",
+      "FreshStrawberry",
+      "RottenApple",
+      "RottenBanana",
+      "RottenGrape",
+      "RottenGuava",
+      "RottenJujube",
+      "RottenOrange",
+      "RottenPomegranate",
+      "RottenStrawberry"
+    ],
+    "joint_confusion_matrix": [
+      [
+        38,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        43,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        41,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        39,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        38,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        39,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        38,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        39,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        42,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        40,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        39,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        39
+      ]
+    ],
+    "per_class_report": {
+      "FreshApple": {
+        "precision": 0.9743589743589743,
+        "recall": 0.9743589743589743,
+        "f1-score": 0.9743589743589743,
+        "support": 39.0
+      },
+      "FreshBanana": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 43.0
+      },
+      "FreshGrape": {
+        "precision": 0.9761904761904762,
+        "recall": 1.0,
+        "f1-score": 0.9879518072289156,
+        "support": 41.0
+      },
+      "FreshGuava": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 39.0
+      },
+      "FreshJujube": {
+        "precision": 0.975609756097561,
+        "recall": 1.0,
+        "f1-score": 0.9876543209876543,
+        "support": 40.0
+      },
+      "FreshOrange": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 40.0
+      },
+      "FreshPomegranate": {
+        "precision": 0.9743589743589743,
+        "recall": 0.95,
+        "f1-score": 0.9620253164556962,
+        "support": 40.0
+      },
+      "FreshStrawberry": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 39.0
+      },
+      "RottenApple": {
+        "precision": 0.9302325581395349,
+        "recall": 1.0,
+        "f1-score": 0.963855421686747,
+        "support": 40.0
+      },
+      "RottenBanana": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 40.0
+      },
+      "RottenGrape": {
+        "precision": 1.0,
+        "recall": 0.9743589743589743,
+        "f1-score": 0.987012987012987,
+        "support": 39.0
+      },
+      "RottenGuava": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 39.0
+      },
+      "RottenJujube": {
+        "precision": 0.9545454545454546,
+        "recall": 0.9545454545454546,
+        "f1-score": 0.9545454545454546,
+        "support": 44.0
+      },
+      "RottenOrange": {
+        "precision": 1.0,
+        "recall": 0.975609756097561,
+        "f1-score": 0.9876543209876543,
+        "support": 41.0
+      },
+      "RottenPomegranate": {
+        "precision": 1.0,
+        "recall": 0.9512195121951219,
+        "f1-score": 0.975,
+        "support": 41.0
+      },
+      "RottenStrawberry": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 39.0
+      },
+      "accuracy": 0.9860248447204969,
+      "macro avg": {
+        "precision": 0.9865810121056859,
+        "recall": 0.9862557919722554,
+        "f1-score": 0.9862536627040052,
+        "support": 644.0
+      },
+      "weighted avg": {
+        "precision": 0.9863848774342426,
+        "recall": 0.9860248447204969,
+        "f1-score": 0.9860400001794872,
+        "support": 644.0
+      }
+    },
+    "multiclass_log_loss": 0.04023516872067517
+  },
+  "limitations": [
+    "No fruit-instance or acquisition-session identifiers were supplied. Different views of the same physical fruit may still cross splits.",
+    "Perceptual grouping is heuristic; evaluation is an internal dataset estimate, not external validation.",
+    "Original labels have not been independently expert-verified.",
+    "No dataset license or attribution document was included in the ZIP.",
+    "Not tested on an independently collected external dataset.",
+    "Only eight fruit categories were trained; non-fruit and unsupported-fruit rejection is not reliable.",
+    "Confidence is temperature-scaled model probability, not a guarantee of correctness or food safety.",
+    "The confidence interval treats images as independent and may be optimistic for correlated fruit views."
+  ],
+  "model_sha256": "8cc9c2a2f7d3cedd53c8525592be529a60f9017c05e6e1b48277449b03b54401"
+}

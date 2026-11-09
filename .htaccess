@@ -1,0 +1,17 @@
+Options -Indexes
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^(?:storage|server|scripts|tests|test-results|node_modules|ml)(?:/|$) - [F,L]
+</IfModule>
+<FilesMatch "\.(sqlite|log|env)$">
+  Require all denied
+</FilesMatch>
+<FilesMatch "^(?:package(?:-lock)?\.json|README\.md|router\.php|\.user\.ini)$">
+  Require all denied
+</FilesMatch>
+<IfModule php_module>
+  php_value upload_max_filesize 10M
+  php_value post_max_size 12M
+  php_flag display_errors Off
+  php_flag session.use_strict_mode On
+</IfModule>

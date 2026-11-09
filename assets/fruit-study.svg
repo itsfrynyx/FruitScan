@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="620" viewBox="0 0 660 620">
+<defs>
+ <radialGradient id="skin" cx="32%" cy="23%" r="78%"><stop stop-color="#ffcd45"/><stop offset=".42" stop-color="#ffa713"/><stop offset=".8" stop-color="#f17b0b"/><stop offset="1" stop-color="#d75908"/></radialGradient>
+ <radialGradient id="slice"><stop stop-color="#ffdb6b"/><stop offset=".72" stop-color="#ffae20"/><stop offset="1" stop-color="#f28a0a"/></radialGradient>
+ <linearGradient id="leaf" x2="1" y2="1"><stop stop-color="#498243"/><stop offset=".5" stop-color="#285e33"/><stop offset="1" stop-color="#143e26"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%"><feGaussianBlur stdDeviation="15"/></filter>
+ <filter id="texture"><feTurbulence type="fractalNoise" baseFrequency=".6" numOctaves="3" seed="3" result="noise"/><feColorMatrix in="noise" type="saturate" values="0"/><feComposite in2="SourceGraphic" operator="in"/><feBlend in="SourceGraphic" mode="soft-light"/></filter>
+</defs>
+<ellipse cx="343" cy="507" rx="197" ry="27" fill="#28402c" opacity=".16" filter="url(#shadow)"/>
+<path d="M360 236Q347 146 306 112" fill="none" stroke="#5d542b" stroke-width="10" stroke-linecap="round"/>
+<path d="M347 178C282 189 212 140 209 73c84-16 147 20 138 105Z" fill="url(#leaf)"/>
+<path d="M344 175Q275 119 226 88M304 145l-14-37m-5 23-38-3" fill="none" stroke="#9ab374" stroke-width="2" opacity=".6"/>
+<path d="M354 183c6-71 76-114 138-84-17 66-64 99-138 84Z" fill="url(#leaf)"/>
+<path d="M360 178q64-54 115-70m-67 47 11-33m8 18 36-5" fill="none" stroke="#abc087" stroke-width="2" opacity=".5"/>
+<path d="M333 210c-57-25-125-7-156 42-46 73-28 174 19 215 64 56 181 61 244 5 70-60 76-156 33-214-35-47-82-58-140-48Z" fill="url(#skin)" filter="url(#texture)"/>
+<ellipse cx="337" cy="220" rx="17" ry="7" fill="#657332"/><path d="m326 220 11-8 12 9" fill="none" stroke="#8d953a" stroke-width="4"/>
+<g transform="translate(459 414) rotate(-22)">
+<ellipse rx="125" ry="127" fill="#ef930f"/>
+<ellipse rx="117" ry="119" fill="#fff2bd"/>
+<ellipse rx="106" ry="109" fill="url(#slice)" filter="url(#texture)"/>
+<g stroke="#ffe8a1" stroke-width="4" fill="none"><path d="M0 0 0-107M0 0 64-87M0 0 103-33M0 0 99 36M0 0 60 89M0 0 0 108M0 0-61 89M0 0-100 35M0 0-102-33M0 0-62-87"/></g>
+<g stroke="#ffe4a1" stroke-width="2" opacity=".45"><path d="m12-23 9-57m7 62 49-49m-43 66 54-17m-54 38 49 36M18 29l20 54m-40-50-9 63m-9-66-36 54m26-66-53 11m57-34-53-35m68 17-27-53"/></g>
+<ellipse rx="9" ry="11" fill="#fff3ce"/>
+</g>
+</svg>
